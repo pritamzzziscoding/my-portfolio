@@ -1,0 +1,118 @@
+.profile-img{
+    margin-bottom: 10px;
+}
+
+body{
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #ece8e8;
+}
+
+img{
+    position: relative;
+    border: 3px solid #179BAE;
+    border-radius: 50%;
+}
+.content{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 10px;
+}
+.name1{
+    justify-content: center;
+    font-size: 25px;
+    margin: 0;
+    font-family: "Donegal One", serif;
+    font-weight: 700;
+    font-style: normal;
+}
+
+.name2 {
+    font-family: "Donegal One", serif;
+    font-size: 20px;
+    font-weight: 700;
+    font-style: normal;
+    margin: 0;
+    font-family: "Bruno Ace", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 500;
+    font-style: normal;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.background{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border-radius: 24px;
+    padding: 25px;
+    max-width: 370px;
+    width: 100%;
+    background: #f7f7f7;
+    box-shadow: 0 5px 10px rgba(0,0,0,0.1);
+    position: relative;
+}
+.background::before{
+    content: "";
+    position: absolute;
+    height: 35%;
+    width: 100%;
+    background-color: #179BAE;
+    top: 0;
+    left: 0;
+    border-radius: 24px 24px 0 0;
+}
+.social-media{
+    margin-top: 25px;
+    display: flex;
+    gap: 30px;
+    margin-bottom: 25px;
+}
+.social-media .bx{
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 34px;
+    width: 34px;
+    background-color: rgb(193, 176, 209);
+    font-size: 25px;
+    border-radius: 50%;
+}
+
+.contact{
+    display: flex;
+    gap: 10px;
+
+}
+.contact  .bx{
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 34px;
+    width: 34px;
+    background-color: rgb(190, 37, 37);
+    font-size: 25px;
+    border-radius: 50%;
+}
+  
+a:link {
+    text-decoration: none;
+}
+
+a:visited {
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: none;
+}
+
+a:active {
+    text-decoration: none;
+}
